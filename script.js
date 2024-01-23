@@ -79,8 +79,8 @@ let x = 5;
 
 // math operators are executed before assignment operators
 // * and / have precedence over + and -
-*/
 
+//strings and template literals
 //template literals allow us to write strings a normal and put variables in it
 // remember to use backsticks
 const firstName = "jerome";
@@ -99,3 +99,26 @@ console.log("string with \n multiple \n lines");
 console.log(`string2 with 
 multiple
 lines`);
+*/
+
+// if else statements taking decisions
+const age = 19;
+const isOldEnough = age >= 18;
+
+//windows + period keys bring up the meticon menu
+// an if else statement if called a controlled structure
+if (isOldEnough) {
+  console.log("you can drive 👌");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`you are too young wait ${yearsLeft} years`);
+}
+
+// var declared inside a block wont be accessible to the outside
+const birthYear = 1986;
+if (birthYear <= 2000) {
+  let century = 20;
+} else {
+  let century = 21;
+}
+console.log(century); // will get an error
