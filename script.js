@@ -55,7 +55,7 @@ birthYear = 2000;
 // var is function scope and let is block scope
 var job = "programmer";
 job = "teacher";
-*/
+
 
 // + - / * are called math operators
 const now = 2037;
@@ -79,3 +79,23 @@ let x = 5;
 
 // math operators are executed before assignment operators
 // * and / have precedence over + and -
+*/
+
+//template literals allow us to write strings a normal and put variables in it
+// remember to use backsticks
+const firstName = "jerome";
+const job = "engineer";
+const birthYear = 1986;
+const year = 2024;
+
+const message = `I'm ${firstName}, an ${job} who is ${
+  year - birthYear
+} years old`;
+console.log(message);
+
+// \n\ makes go to a new line
+console.log("string with \n multiple \n lines");
+// however, when using string literals all you need go to the line
+console.log(`string2 with 
+multiple
+lines`);
