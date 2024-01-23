@@ -99,7 +99,7 @@ console.log("string with \n multiple \n lines");
 console.log(`string2 with 
 multiple
 lines`);
-*/
+
 
 // if else statements taking decisions
 const age = 19;
@@ -122,3 +122,4 @@ if (birthYear <= 2000) {
   let century = 21;
 }
 console.log(century); // will get an error
+*/
