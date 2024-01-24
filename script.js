@@ -154,7 +154,7 @@ console.log(n); // will be 10
 console.log(1 + 1 + 1 + "1"); // will return 31
 // "10" - "4" - "3" returns 3 then -2 returns 1
 console.log("10" - "4" - "3" - 2 + "5"); // will return 15
-*/
+
 
 // Truthy and Falsy Values
 // Falsy values are values that will become false when we try to covnert them into a bolean
@@ -187,3 +187,27 @@ if (height) {
 } else {
 	console.log("heigh is NOT defined"); // will return this one
 }
+*/
+
+//equality operators == vs ===
+// === is called teh strict equality operator and does not perform type coercion
+// == is called the loose equality operator
+// === maakes sure the 2 data are of the same type therefor it is best to use this one
+const age = 18;
+if (age === 18) console.log("u r an adult"); // true
+
+if (age == 18) console.log("u r an adult"); // true
+
+//prompt will createa pop up in which teh user can enter a value
+// that value still needs to be stored somewhere here called "favorite"
+const favorite = prompt("whats ur favorite number"); // favorite is a string here
+console.log(favorite);
+
+if (age == 23) console.log("i like 23 as well"); // true
+// wont work cause the 23 is passed in as a string but the check here is comparing to an int
+if (age === 23) console.log("i like 23 as well"); // false
+
+const favorite2 = Number(prompt("whats ur favorite number")); // favorite2 is an int here
+
+// same principle for the different operator there is a loose and strict version
+if (favorite !== 23) console.log("why not 23");
