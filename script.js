@@ -211,7 +211,7 @@ const favorite2 = Number(prompt("whats ur favorite number")); // favorite2 is an
 
 // same principle for the different operator there is a loose and strict version
 if (favorite !== 23) console.log("why not 23");
-*/
+
 
 // Equality Operators
 const hasDriversLicense = true; // A
@@ -235,7 +235,40 @@ console.log(hasDriversLicense && hasGoodVision && isTired); // all must be true 
 
 // all must be true to return true
 if (shouldDrive) {
-	console.log("she is ok to drive");
+  console.log("she is ok to drive");
 } else {
-	console.log("she cant drive");
+  console.log("she cant drive");
+}
+*/
+
+// Switch statement
+const day = monday;
+
+//without the break, the code will keep goign through and process each case in order
+//never forget the breaks
+switch (day) {
+  case monday:
+    console.log(day);
+    break;
+  case tuesday:
+    console.log(day);
+    break;
+  case wednesday:
+    console.log(day);
+    break;
+  case thursday:
+    console.log(day);
+    break;
+  case friday:
+    console.log(day);
+    break;
+  case saturday:
+    console.log(day);
+    break;
+  case sunday:
+    console.log(day);
+    break;
+  default:
+    console.log("not a valid day");
+    break;
 }
