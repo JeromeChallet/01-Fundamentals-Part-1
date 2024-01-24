@@ -213,7 +213,7 @@ const favorite2 = Number(prompt("whats ur favorite number")); // favorite2 is an
 if (favorite !== 23) console.log("why not 23");
 */
 
-// Equality Operators
+// Logical Operators are && and ||
 const hasDriversLicense = true; // A
 const hasGoodVision = true; // B
 
