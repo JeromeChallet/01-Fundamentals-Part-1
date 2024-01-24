@@ -122,7 +122,7 @@ if (birthYear <= 2000) {
   let century = 21;
 }
 console.log(century); // will get an error
-*/
+
 
 //type Convertion and Coercion
 //type convertion is to manually convert from one type to another
@@ -154,3 +154,36 @@ console.log(n); // will be 10
 console.log(1 + 1 + 1 + "1"); // will return 31
 // "10" - "4" - "3" returns 3 then -2 returns 1
 console.log("10" - "4" - "3" - 2 + "5"); // will return 15
+*/
+
+// Truthy and Falsy Values
+// Falsy values are values that will become false when we try to covnert them into a bolean
+// they 0, "", undefined, null, Nan
+//will convert to a boolean
+console.log(Boolean(0)); // false
+console.log(Boolean(undefined)); // false
+console.log(Boolean("")); // false
+console.log(Boolean(null)); // false
+console.log(Boolean("jerome")); // true
+console.log(Boolean({})); // true
+
+//the conversion to boolean is always implicit when using logical operators and logical context such as if else statement so be carefull
+const money = 0;
+if (money) {
+	console.log("dont spend it all");
+} else {
+	console.log("get a job first"); // will return this one
+}
+const money2 = 100;
+if (money2) {
+	console.log("dont spend it all"); // will return this one
+} else {
+	console.log("get a job first");
+}
+
+let height; // because height is undefined it is false in this case
+if (height) {
+	console.log("height is defined");
+} else {
+	console.log("heigh is NOT defined"); // will return this one
+}
