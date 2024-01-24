@@ -187,7 +187,7 @@ if (height) {
 } else {
 	console.log("heigh is NOT defined"); // will return this one
 }
-*/
+
 
 //equality operators == vs ===
 // === is called teh strict equality operator and does not perform type coercion
@@ -211,3 +211,31 @@ const favorite2 = Number(prompt("whats ur favorite number")); // favorite2 is an
 
 // same principle for the different operator there is a loose and strict version
 if (favorite !== 23) console.log("why not 23");
+*/
+
+// Equality Operators
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision); // true if both true
+console.log(hasDriversLicense || hasGoodVision); // true if at least one is true
+console.log(!hasDriversLicense); //false
+
+const shouldDrive = hasDriversLicense && hasGoodVision && !isTired;
+
+// both must be true to return true
+// if (shouldDrive) {
+// 	console.log("she is ok to drive");
+// } else {
+// 	console.log("she cant drive");
+// }
+
+const isTired = true; // C
+console.log(hasDriversLicense && hasGoodVision && isTired); // all must be true to return true
+
+// all must be true to return true
+if (shouldDrive) {
+	console.log("she is ok to drive");
+} else {
+	console.log("she cant drive");
+}
