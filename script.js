@@ -239,7 +239,7 @@ if (shouldDrive) {
 } else {
   console.log("she cant drive");
 }
-*/
+
 
 // Switch statement
 const day = monday;
@@ -272,3 +272,23 @@ switch (day) {
     console.log("not a valid day");
     break;
 }
+*/
+
+//declarations & statements
+//Expressions is a piece of code that produces a value
+// they are like the words making up the sentence
+3 + 4;
+1999;
+true && false && !false;
+//declarations are pieces of code that do not produce a value ontheir own
+// they like complete sentences
+//they are actions and those series of action make up the code
+//this one here does not produce a value
+if (23 > 10) {
+  const str = "23 is bigger";
+}
+
+//in a template literal we can insert expressions but not statements
+//JS expects decalrations and statements in different places so be carefull
+console.log(`I'm ${2024 - 1986} years`); // will work
+//console.log(`I'm ${2024-1986} years ${if (23 > 10)}`);// will not work
