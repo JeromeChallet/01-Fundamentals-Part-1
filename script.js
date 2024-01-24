@@ -124,4 +124,33 @@ if (birthYear <= 2000) {
 console.log(century); // will get an error
 */
 
-//type Covertion and Coertion
+//type Convertion and Coercion
+//type convertion is to manually convert from one type to another
+//type coertion is js automatically converts from one type to another
+const inputYear = "1991";
+console.log(inputYear + 18); // will return 199118
+// will convert to number and return 2009
+console.log(Number(inputYear + 18));
+
+console.log(Number("house")); // return NaN
+//NaN is still considered a number just not a valid one
+console.log(typeof NaN);
+
+//convert to a string
+console.log(String(56));
+
+//type coercion example
+console.log("i am " + 37 + " years old"); // nb turned into a string
+console.log("23" - "10" - 6); // string turned into a nb
+console.log("23" + "10" + 6); // nb turned into a string
+console.log("23" * 6); // string turned into a nb
+console.log("23" / 6); // string turned into a nb
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n); // will be 10
+
+//js kinda guess on its own when to convert or not
+console.log(1 + 1 + 1 + "1"); // will return 31
+// "10" - "4" - "3" returns 3 then -2 returns 1
+console.log("10" - "4" - "3" - 2 + "5"); // will return 15
