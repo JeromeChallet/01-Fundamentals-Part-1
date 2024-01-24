@@ -123,3 +123,5 @@ if (birthYear <= 2000) {
 }
 console.log(century); // will get an error
 */
+
+//type Covertion and Coertion
