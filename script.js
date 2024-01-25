@@ -272,7 +272,7 @@ switch (day) {
     console.log("not a valid day");
     break;
 }
-*/
+
 
 //declarations & statements
 //Expressions is a piece of code that produces a value
@@ -292,3 +292,23 @@ if (23 > 10) {
 //JS expects decalrations and statements in different places so be carefull
 console.log(`I'm ${2024 - 1986} years`); // will work
 //console.log(`I'm ${2024-1986} years ${if (23 > 10)}`);// will not work
+*/
+
+//Conditional Ternary Operator ? :
+//condition ? if part : else part
+const age = 23;
+(age) => (18 ? console.log("wine🍷") : console.log("water💧"));
+
+// they can be assigned to a var
+age = 18;
+const drink =
+	age >= 18
+		? console.log("u can drink wine🍷")
+		: console.log("u cant drink wine😭");
+
+console.log(drink);
+
+//because the ternary operator produces a value we can have a conditional inside a template literal
+console.log(
+	`i like to drink ${18 ? console.log("wine🍷") : console.log("water💧")}`
+);
