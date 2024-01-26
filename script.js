@@ -292,7 +292,7 @@ if (23 > 10) {
 //JS expects decalrations and statements in different places so be carefull
 console.log(`I'm ${2024 - 1986} years`); // will work
 //console.log(`I'm ${2024-1986} years ${if (23 > 10)}`);// will not work
-*/
+
 
 //Conditional Ternary Operator ? :
 //condition ? if part : else part
@@ -312,3 +312,15 @@ console.log(drink);
 console.log(
 	`i like to drink ${18 ? console.log("wine🍷") : console.log("water💧")}`
 );
+
+
+// ES releases
+/*
+invented by brendan eich in 10 days for netscape
+microsoft copied js and called it JScript
+ECMA is the official standart for js
+in 2009 ES5 was a big Deal 
+but in 2015 ES6 was the biggest update ever  and is also called ES15
+nothing is taken oput of js but put in at each update
+ESNext is the version meant to be released later on
+*/
