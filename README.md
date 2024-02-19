@@ -5,3 +5,4 @@ controlled structure
 type convertion vs type coertion
 Number()
 String()
+Boolean()
