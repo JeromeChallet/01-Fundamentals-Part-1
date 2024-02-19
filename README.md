@@ -2,4 +2,6 @@
 assignment operator
 math operator
 controlled structure
-type conversion vs type coersion
+type convertion vs type coertion
+Number()
+String()
