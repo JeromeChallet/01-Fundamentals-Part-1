@@ -10,3 +10,5 @@ strict equality operator
 loose equality operator
 prompt()
 alert()
+switch (case)
+{case x: break;
