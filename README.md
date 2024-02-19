@@ -8,3 +8,5 @@ String()
 Boolean()
 strict equality operator
 loose equality operator
+prompt()
+alert()
