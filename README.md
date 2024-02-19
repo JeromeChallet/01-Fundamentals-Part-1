@@ -11,4 +11,5 @@ loose equality operator
 prompt()
 alert()
 switch (case)
-{case x: break;
+{case x:...; break;
+default:...;}
