@@ -13,3 +13,5 @@ alert()
 switch (case)
 {case x:...; break;
 default:...;}
+Expression
+Declaration
