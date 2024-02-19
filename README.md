@@ -6,3 +6,5 @@ type convertion vs type coertion
 Number()
 String()
 Boolean()
+strict equality operator
+loose equality operator
